@@ -3,24 +3,67 @@
 
 .bun-top {
   height: 70px;
-  width: 60%;
-  background: #e5b05a;
+  width: 250px;
+  background: linear-gradient(to bottom, #e0a85b, #c97a2b);
+  background: radial-gradient(circle at 25px 20px, #f8e7b5 3px, transparent 4px),
+    radial-gradient(circle at 50px 12px, #f8e7b5 3px, transparent 4px),
+    radial-gradient(circle at 75px 18px, #f8e7b5 3px, transparent 4px),
+    radial-gradient(circle at 100px 10px, #f8e7b5 3px, transparent 4px),
+    radial-gradient(circle at 130px 18px, #f8e7b5 3px, transparent 4px),
+    radial-gradient(circle at 155px 12px, #f8e7b5 3px, transparent 4px),
+    radial-gradient(circle at 180px 20px, #f8e7b5 3px, transparent 4px),
+    radial-gradient(circle at 210px 14px, #f8e7b5 3px, transparent 4px), linear-gradient(to bottom, #e0a85b, #c97a2b);
+  box-shadow: inset 0 -8px 0 rgba(0, 0, 0, 0.15);
   border-radius: 100px 100px 20px 20px;
-  border-bottom: solid 10px rgba(0,0,0,.1);
+}
+
+.bun-top-2 {
+  height: 70px;
+  width: 250px;
+  background: linear-gradient(to bottom, #cfe3ee, #b7d5e8);
+  background: radial-gradient(ellipse at 25px 20px, #2b2b2b 4px 2px, transparent 5px),
+    radial-gradient(ellipse at 50px 12px, #2b2b2b 4px 2px, transparent 5px),
+    radial-gradient(ellipse at 75px 18px, #2b2b2b 4px 2px, transparent 5px),
+    radial-gradient(ellipse at 100px 10px, #2b2b2b 4px 2px, transparent 5px),
+    radial-gradient(ellipse at 130px 18px, #2b2b2b 4px 2px, transparent 5px),
+    radial-gradient(ellipse at 155px 12px, #2b2b2b 4px 2px, transparent 5px),
+    radial-gradient(ellipse at 180px 20px, #2b2b2b 4px 2px, transparent 5px),
+    radial-gradient(ellipse at 210px 14px, #2b2b2b 4px 2px, transparent 5px),
+    radial-gradient(ellipse at 40px 30px, #2b2b2b 4px 2px, transparent 5px),
+    radial-gradient(ellipse at 90px 30px, #2b2b2b 4px 2px, transparent 5px),
+    radial-gradient(ellipse at 140px 30px, #2b2b2b 4px 2px, transparent 5px),
+    radial-gradient(ellipse at 190px 30px, #2b2b2b 4px 2px, transparent 5px),
+    linear-gradient(to bottom, #cfe3ee, #b7d5e8);
+  border-radius: 100px 100px 20px 20px;
+  box-shadow:
+    inset 0 -8px 0 rgba(0, 0, 0, 0.08),
+    0 3px 8px rgba(0, 0, 0, 0.12);
 }
 
 .cheese {
-  height: 15px;
-  width: 65%;
-  background: #f2c120;
-  border-bottom: solid 2px rgba(0,0,0,.1);
+  height: 14px;
+  width: 250;
+  background: radial-gradient(circle at 10% 50%, white 5px, transparent 6px),
+    radial-gradient(circle at 25% 35%, white 4px, transparent 5px),
+    radial-gradient(circle at 40% 55%, white 5px, transparent 6px),
+    radial-gradient(circle at 58% 40%, white 4px, transparent 5px),
+    radial-gradient(circle at 75% 55%, white 5px, transparent 6px),
+    radial-gradient(circle at 90% 40%, white 4px, transparent 5px), linear-gradient(to bottom, #ffd54f, #f4c542);
+  border-bottom: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+.cheese-2 {
+  height: 14px;
+  width: 250px;
+  background: linear-gradient(to bottom, #ffe4f0, #ffb6d9, #ff91c4);
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4);
 }
 
 .tomato {
-  height: 25px;
+  height: 16px;
   width: 50%;
-  background-color: #dd3710;
-  border-bottom: solid 2px rgba(0,0,0,.1);
+  background-color: #e63b0e;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.1);
 }
 
 .meatball {
@@ -33,37 +76,62 @@
 }
 
 .patty {
-  height: 35px;
-  width: 65%;
+  height: 32px;
+  width: 250px;
   background: #ad370b;
   border-radius: 15px;
-  border-bottom: solid 2px rgba(0,0,0,.1);
+  border-bottom: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+.patty-2 {
+  height: 34px;
+  width: 260px;
+  background: repeating-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.12) 1px,
+      rgba(0, 0, 0, 0.12) 4px,
+      transparent 4px,
+      transparent 18px
+    ),
+    linear-gradient(to right, #8e244d, #d46a9c, #ffd4e5);
+  border-radius: 15px;
+  box-shadow:
+    inset 0 -8px 0 rgba(0, 0, 0, 0.12),
+    inset 0 3px 0 rgba(255, 255, 255, 0.25);
 }
 
 .pickle {
   height: 30px;
   width: 50%;
-  background: #3ac67d;
+  background: #00b050;
   border-radius: 0 0 100px 100px;
   border-bottom: solid 10px #2d9961;
 }
 
 .onion {
   width: 40%;
-  background-color: #a039bf;
-  border-top: dotted 20px rgba(255,255,255,.2);
+  background-color: mediumorchid;
+  border-top: dotted 20px rgba(255, 255, 255, 0.2);
 }
 
 .bun-bottom {
   height: 35px;
-  width: 60%;
-  background: #e5b05a;
+  width: 250px;
+  background: linear-gradient(to bottom, #e0a85b, #c97a2b);
   border-radius: 20px 20px 40px 40px;
-  border-top: solid 8px rgba(0,0,0,.1)
+  border-top: solid 8px rgba(0, 0, 0, 0.1);
+}
+
+.bun-bottom-2 {
+  height: 35px;
+  width: 250px;
+  background: linear-gradient(to bottom, #cfe3ee, #b7d5e8);
+  border-radius: 20px 20px 100px 100px;
+  border-top: solid 8px rgba(0, 0, 0, 0.1);
 }
 
 .plate {
-  height: 25px;
+  height: 35px;
   width: 80%;
   background: #656565;
   border-radius: 20px 20px 200px 200px;
